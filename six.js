@@ -1,10 +1,5 @@
-const ps = require("prompt-sync");
-const prompt=ps();
-const a=prompt("enter a: ");
-const b=prompt("enter b: ");
-if(a>b){
-    console.log("a is greatest number");
-}
-else{
-    console.log("b is greatest number");
+let i=1;
+while(4*i<=16){
+    console.log(4*i);
+    i=i+1;
 }

@@ -1,9 +1,5 @@
-const ps = require ("prompt-sync");
-const prompt = ps();
-const number= prompt("enter value:  ");
-if(number%7==0){
-    console.log("divisible");
-}
-else{
-    console.log("not");
+let i=1;
+while(i<=10){
+    console.log(i);
+    i=i+1;
 }

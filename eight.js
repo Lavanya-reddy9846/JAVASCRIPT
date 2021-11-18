@@ -1,14 +1,5 @@
-const ps = require ("prompt-sync")
-const prompt = ps();
-const a=prompt("enter a: ");
-const b=prompt("enter b: ");
-const c=prompt("enter c: ");
-if((a>b)&&(a>c)){
-    console.log("a is greater");
-}
-if((b>a)&&(b>c)){
-    console.log("b is greater");
-}
-if((c>a)&&(c>b)){
-    console.log("c is greater");
+let i= 1;
+while(24%i==0){
+    console.log(i);
+    i=i+1;
 }

@@ -1,9 +1,3 @@
-const ps= require("prompt-sync");
-const prompt=ps();
-const i=prompt("enter values: ");
-if(i>0){
-    console.log("positive");
-}
-else{
-    console.log("negative");
+for(let i=5;i<=15;i++){
+    console.log(i);
 }

@@ -1,10 +1,5 @@
-const ps = require("prompt-sync");
-const prompt = ps();
-const a=prompt("enter a: ");
-const b=prompt("enter b: ");
-if(a<b){
-    console.log("a is least number");
-}
-else{
-    console.log("b is least number");
+let i=1;
+while(6*i<=60){
+    console.log(6*i);
+    i=i+1;
 }

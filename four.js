@@ -1,9 +1,3 @@
-const ps= require("prompt-sync");
-const prompt=ps();
-const i=prompt("enter values: ");
-if(i>=100&&i<=999){
-    console.log("three digit number")
-}
-else{
-    console.log("not a three digit number")
+for(let i=15;i>=10;i--){
+    console.log(i);
 }
